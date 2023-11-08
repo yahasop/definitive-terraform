@@ -1,4 +1,4 @@
-# definitive-terraform
+# Terraform with AWS
 
 These Terraform's configuration files will provide a complete AWS VM (with VPC, Subnet, NSG, Key-Pair)
 
