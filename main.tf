@@ -8,16 +8,12 @@ terraform {
 }
 
 provider "aws" {
-  region = var.aws_region
+  region = "us-east-1"
 }
 
 resource "aws_s3_bucket" "my-s3-bucket" {
   bucket = "terraform-backend-grid-ysolis"
-
   tags = {
     Name = "my-s3-bucket"
   }
-}
-
-  tags = local.common_tags
 }
